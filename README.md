@@ -20,7 +20,7 @@ Postman:
     "time": "2016-03-16T13:56:39.492"
 }
 
-    -Проверить лог файл можно перейти в папку target.В ней создастся лог файл logging.log
+    -Проверить лог файл можно перейти в папку target. В ней создастся лог файл logging.log
  
 2. method GET, localhost:8080/core-api/actuator/health
 
