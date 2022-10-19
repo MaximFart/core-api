@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import ru.sber.model.Log;
 import ru.sber.service.LogService;
 
-import java.io.IOException;
 import java.util.Optional;
 
 @RestController
