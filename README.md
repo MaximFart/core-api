@@ -23,4 +23,5 @@ Postman:
     -Проверить лог файл можно перейти в папку target.В ней создастся лог файл logging.log
  
 2. method GET, localhost:8080/core-api/actuator/health
+
     -Сообщает состояние работоспособности нашего приложения.
