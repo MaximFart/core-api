@@ -25,6 +25,6 @@ public class LogController {
     public ResponseEntity<String> createLog(@RequestBody Optional<Log> log) {
         Log mappedLog = log.map(l -> logService.save(l)).orElse(null);
         return mappedLog == null ? new ResponseEntity<>("log is empty", HttpStatus.BAD_REQUEST) :
-                            new ResponseEntity<>("log saved successfully", HttpStatus.OK);
+                                   new ResponseEntity<>("log saved successfully", HttpStatus.OK);
     }
 }
