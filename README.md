@@ -2,7 +2,7 @@
 ## Проводник для запуска приложения
 
 База данных:
-1. Создать БД в postgreSQL, заполнить полня url, username, password в application.properties
+1. Создать БД в postgreSQL, заполнить полня url, username, password в resources/application.properties
 
 Terminal:
 1. mvn package
